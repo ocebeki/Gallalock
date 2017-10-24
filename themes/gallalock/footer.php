@@ -9,14 +9,11 @@
                 </div>
             </div>
             <div class="fuuter-menu clearfix">
-              <?php 
-                $args = array(
-                    
-                    'theme_location' => 'footer'
-                
-                ); ?>
-                
-             <?php wp_nav_menu("footer"); ?>
+                <a class="nav-link" href="#">Our Services</a>
+                <a class="nav-link" href="#">Emergency</a>
+                <a class="nav-link" href="#">Locksmiths</a>
+                <a class="nav-link" href="#">Contact us</a>
+                <span class="social-descr">Follow us on:</span>
             
             </div>
             <a href="#">

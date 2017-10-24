@@ -1,6 +1,15 @@
 <?php get_header(); ?>
 
 <section>
+  
+
+        <div class="secondary-title-block">
+            <div class="container">
+                <h2>Traditional Expertise with Modern Technology</h2>
+            </div>
+        
+        </div>
+
     <h3>To jest strona główna. Domyslnie wyświetla listę postów. Wszystkie posty które dodasz w panelu są poniżej w skróconej wersji</h3> <!-- jeżeli chcesz ustawić inną stronę jako główną patrz (scr3.jpg) -->
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
         <div class="post">
