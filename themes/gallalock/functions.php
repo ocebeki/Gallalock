@@ -65,3 +65,10 @@ return count( $comments_by_type['comment'] );
 return $count;
 }
 }
+
+
+// navigation Menu//
+
+register_nav_menus(array(
+'footer' => __('footer menu'),
+));

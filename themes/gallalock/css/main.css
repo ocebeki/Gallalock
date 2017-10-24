@@ -599,11 +599,11 @@ h5 {
   -o-transition: all ease .3s;
   transition: all ease .3s; }
 .footer .social-link.facebook {
-  background: url(../img/icons/icon-facebook.png); }
+    background: url(../img/icon-facebook.png);}
 .footer .social-link.twitter {
-  background: url(../img/icons/icon-twitter.png); }
+  background: url(../img/icon-twitter.png); }
 .footer .social-link.google-plus {
-  background: url(../img/icons/icon-google-plus.png); }
+  background: url(../img/icon-google-plus.png); }
 .footer .social-link:not(:last-child) {
   margin-right: 13px; }
 .footer .social-link:hover {
