@@ -1,0 +1,51 @@
+/*
+Theme Name: Basic
+Theme URI: aaa
+Author: Jacek Kubas
+Author URI: jacekkubas.com
+Description: Basic theme version for dveloping webites based on pages only.
+Version: 0.1
+License: MIT
+Text Domain: Basic
+*/
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+div.fuuter-menu a.nav-link div.icon-wrapper{
+	display: inline-block;
+}
+.col-50 .video-js{
+	margin: 0 auto;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 40px;
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.dis-table h4{
+	text-align: left;
+	padding-left: 92px;
+}
+
+@media (max-width: 767px){
+	.dis-table h4{
+		text-align: center;
+		padding-left: 0;
+	}
+}
+
+.midle-wrapper.text15{
+	text-align: center;
+}
+
+
